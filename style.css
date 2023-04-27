@@ -1,0 +1,95 @@
+body {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  width: 748px;
+  height: 748px;
+  background-color: #232629;
+  gap: 9px;
+  padding: 9px;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 94px;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px 94px;
+}
+
+.items {
+  background-color: #f0f1ec;
+}
+
+.one {
+  background-color: #f0f1ec;
+  grid-column: span 2;
+  grid-row: span 3;
+}
+
+.two {
+  background-color: #f0f1ec;
+  grid-column: span 3;
+}
+
+.three {
+  background-color: #f0f1ec;
+  grid-row: span 2;
+}
+
+.four {
+  background-color: #f9d01e;
+}
+
+.five {
+  background-color: #f0f1ec;
+  grid-column: span 3;
+  grid-row: span 3;
+}
+
+.six {
+  background-color: #f0f1ec;
+}
+.seven {
+  background-color: #f0f1ec;
+  grid-row: span 2;
+}
+.eight {
+  background-color: #f0f1ec;
+  grid-row: span 2;
+}
+.nine {
+  background-color: #f0f1ec;
+  grid-column: span 2;
+  grid-row: span 3;
+}
+
+.ten {
+  background-color: #004592;
+  grid-column: span 2;
+  grid-row: span 3;
+}
+
+.eleven {
+  background-color: #f0f1ec;
+  grid-row: span 2;
+}
+
+.twelve {
+  background-color: #f9d01e;
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.tertin {
+  background-color: #f0f1ec;
+}
+
+.portin {
+  background-color: #e72f24;
+}
+.piptin {
+  background-color: #f0f1ec;
+  grid-column: span 3;
+}
